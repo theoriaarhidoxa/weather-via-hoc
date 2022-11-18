@@ -3,6 +3,8 @@ import {apiUrls} from "../literals";
 import {ICities} from "../interfaces";
 import {observedCities} from '../literals';
 
+// React.ElementType: https://bobbyhadz.com/blog/react-jsx-element-type-does-not-have-any-construct
+
 export const withFetch = (Component: React.ElementType, apiName: string) => {
 
     return function () {
